@@ -8,6 +8,7 @@ main {
 .card {
   display: flex;
   flex-direction: column;
+  min-height: 400px;
   gap: 2em;
   padding: 2em 3em;
   font-family: $font-secondary;
@@ -61,6 +62,7 @@ main {
     padding: 0.7rem 1.7rem;
     border: 2px solid $very-light-gray;
     border-radius: 50px;
+    margin-top: auto;
     background-color: $very-light-gray;
     font-size: 0.9rem;
     text-align: center;
@@ -97,10 +99,6 @@ main {
     &__desc {
       margin-bottom: 3.5em;
       font-size: 0.9rem;
-    }
-
-    &__learn-more {
-      margin-top: auto;
     }
   }
 }

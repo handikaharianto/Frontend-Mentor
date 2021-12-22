@@ -1,0 +1,15 @@
+@mixin card-info-flex($color) {
+  display: flex;
+  align-items: center;
+  color: $color;
+}
+
+@mixin card-img-pseudo($content) {
+  content: $content;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  width: 100%;
+  height: 100%;
+  transition: all 0.3s ease-in-out;
+}

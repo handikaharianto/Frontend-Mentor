@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
+  background-image: url("../images/bg-pattern-bottom.svg");
+  background-color: #19a2ae;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+.card {
+  width: 90%;
+  max-width: 350px;
+  border-radius: 15px;
+  background-color: white;
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.card__banner {
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+}
+
+.card__body {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.card__avatar {
+  margin-top: -60px;
+}
+
+.card__avatar-img {
+  border-radius: 50%;
+  border: 5px solid white;
+}
+
+.card__profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  gap: 0.5em;
+  margin-top: 0.8em;
+}
+
+.card__name {
+  font-size: 1.2rem;
+}
+
+.card__age {
+  color: #6a6f81;
+  font-size: 1.2rem;
+}
+
+.card__location {
+  color: #6a6f81;
+  font-size: 0.9rem;
+  margin-top: 0.45em;
+}
+
+.card__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
+  padding: 1.5em;
+  border-top: 1px solid #e3e3e3;
+  margin-top: 1.5em;
+}
+
+.card__stats {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  gap: 0.4em;
+}
+
+.card__stats-number {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.card__stats-name {
+  color: #969696;
+  font-size: 0.7rem;
+  letter-spacing: 0.15em;
+}

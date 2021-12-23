@@ -11,10 +11,46 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Frontend Mentor | Profile card component</title>
   </head>
   <body>
-    Victor Crest 26 London 80K Followers 803K Likes 1.4K Photos
+    <main class="card">
+      <div class="card__top">
+        <img
+          class="card__banner"
+          src="./images/bg-pattern-card.svg"
+          alt="Pattern top"
+        />
+      </div>
+      <div class="card__body">
+        <div class="card__avatar">
+          <img
+            class="card__avatar-img"
+            src="./images/image-victor.jpg"
+            alt="Avatar"
+          />
+        </div>
+        <div class="card__profile">
+          <h1 class="card__name">Victor Crest</h1>
+          <p class="card__age">26</p>
+        </div>
+        <p class="card__location">London</p>
+        <div class="card__info">
+          <div class="card__stats">
+            <p class="card__stats-number">80K</p>
+            <p class="card__stats-name">Followers</p>
+          </div>
+          <div class="card__stats">
+            <p class="card__stats-number">803K</p>
+            <p class="card__stats-name">Likes</p>
+          </div>
+          <div class="card__stats">
+            <p class="card__stats-number">1.4K</p>
+            <p class="card__stats-name">Photos</p>
+          </div>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
